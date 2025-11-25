@@ -1,0 +1,34 @@
+-- create a new database
+create database cwpc901;
+-- list of database
+show databases;
+-- delete database
+drop database cwpc901;
+-- select database
+use cwpc901;
+-- create a table
+create table employee(
+ id int,
+ name varchar(100),
+ job_id varchar(100),
+ salary int,
+ city varchar(100)
+ );
+ -- show tables
+ select * from employee;
+ -- insert data into table 
+ insert into employee (id,name,job_id,salary,city)
+ values (101,"joy","A1001",56000,"mumbai"),
+ (102,"ramesh","A1002",57000,"pune")
+ 
+
+
+
+
+
+
+
+
+
+
+
